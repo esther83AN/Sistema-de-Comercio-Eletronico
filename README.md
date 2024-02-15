@@ -7,4 +7,4 @@
 3. Identificação de 3 sistemas semelhantes?
  ### Getninjas, Workana e Upwork.
 4. Identificar requisitos funcionais e não funcionais?
- ### Requisitos funcionais: Cadastrar usuário, login, 
+- ### Requisitos funcionais: Cadastrar usuário, login, 
