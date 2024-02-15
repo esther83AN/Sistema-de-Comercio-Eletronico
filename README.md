@@ -1,5 +1,5 @@
 # Choose Profissional
-## Comecio eletronico 
+## Comécio eletrônico 
 ###  O que é o sistema que será desenvolvido? 
 Uma empresa de disponibilização de serviços, no qual tem intuito de divugar o serviço de profissionais por meio da tecnologia. 
 ###  Qual problema ele ira resolver?
