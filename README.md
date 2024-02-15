@@ -1,10 +1,10 @@
 # Choose Profissional
 ## Comecio eletronico 
-* O que é o sistema que será desenvolvido? 
+1. O que é o sistema que será desenvolvido? 
 ### Uma empresa de disponibilização de serviços.
-- Qual problema ele ira resolver?
+2. Qual problema ele ira resolver?
 ### A procura de mão de obra qualificada.
-- Identificação de 3 sistemas semelhantes?
+3. Identificação de 3 sistemas semelhantes?
  ### Getninjas, Workana e Upwork.
-- Identificar requisitos funcionais e não funcionais?
+4. Identificar requisitos funcionais e não funcionais?
  ### Requisitos funcionais: Cadastrar usuário, login, 
