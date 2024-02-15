@@ -13,49 +13,49 @@ Uma empresa de disponibilização de serviços, no qual tem intuito de divugar o
 
  *FUNCIONÁRIO*
  
--Desempenho(tempo de carregamento das páginas, entre outros);
--Segurança;
--Usabilidade;
--Confiabilidade;
--Escalabilidade;
--Manutenibilidade;
--Interoperabilidade/Integração com outros Sistemas;
--Desempenho(Otimização de consultas ao banco de dados);
--Administração do Site;
--Acessibilidade(Ser acessível a pessoas com deficiência);
--Suporte;
+- Desempenho(tempo de carregamento das páginas, entre outros);
+- Segurança;
+- Usabilidade;
+- Confiabilidade;
+- Escalabilidade;
+- Manutenibilidade;
+- Interoperabilidade/Integração com outros Sistemas;
+- Desempenho(Otimização de consultas ao banco de dados);
+- Administração do Site;
+- Acessibilidade(Ser acessível a pessoas com deficiência);
+- Suporte;
 
 *CLIENTE*
 
--Fórum de Conversas
--Avaliações 
--Cadastro de Vagas;
--Gestão de Candidatos;
--Relatórios;
+- Fórum de Conversas;
+- Avaliações;
+- Cadastro de Vagas;
+- Gestão de Candidatos;
+- Relatórios;
 
 ### Requisitos funcionais  
 
 *FUNCIONÁRIO* 
                                    
--Cadastro de candidato
--Criação de perfil profissional
--Publicação de vagas
--Agenda disponível (ao público)
--Comentário 
--Feedback pós-entrevista
--Gestão de perfis de empresa 
--Notificações 
--Chat de Conversa 
+- Cadastro de candidato;
+- Criação de perfil profissional;
+- Publicação de vagas;
+- Agenda disponível (ao público);
+- Comentário;
+- Feedback pós-entrevista;
+- Gestão de perfis de empresa; 
+- Notificações;
+- Chat de Conversa;
 
 *CLIENTE*
 
--Cadastro do Cliente 
--Pesquisa por Funcionário
--Candidatura a vagas
--Criação de perfil profissional
--Agendamento de entrevistas
--Chat de Conversa 
--Comentar 
--Avaliar Funcionário
--Feedback pós-entrevista
--Gerenciamento de processos seletivos
+- Cadastro do Cliente; 
+- Pesquisa por Funcionário;
+- Candidatura a vagas;
+- Criação de perfil profissional;
+- Agendamento de entrevistas;
+- Chat de Conversa; 
+- Comentar; 
+- Avaliar Funcionário;
+- Feedback pós-entrevista;
+- Gerenciamento de processos seletivos;
