@@ -13,25 +13,14 @@ Uma empresa de disponibilização de serviços, no qual tem intuito de divugar o
 
  *FUNCIONÁRIO*
  
-- Desempenho(tempo de carregamento das páginas, entre outros);
+- Desempenho(tempo de carregamento das páginas, entre outros. Otimização de consultas ao banco de dados);
 - Segurança;
 - Usabilidade;
 - Confiabilidade;
 - Escalabilidade;
 - Manutenibilidade;
 - Interoperabilidade/Integração com outros Sistemas;
-- Desempenho(Otimização de consultas ao banco de dados);
-- Administração do Site;
 - Acessibilidade(Ser acessível a pessoas com deficiência);
-- Suporte;
-
-*CLIENTE*
-
-- Fórum de Conversas;
-- Avaliações;
-- Cadastro de Vagas;
-- Gestão de Candidatos;
-- Relatórios;
 
 ### Requisitos funcionais  
 
