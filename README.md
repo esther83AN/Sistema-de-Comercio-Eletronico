@@ -10,8 +10,6 @@ Uma empresa de disponibilização de serviços, no qual tem intuito de divugar o
 - Requisitos funcionais:
 - Requisitos não funcionais:
 ### Requisitos não funcionais
-
- *FUNCIONÁRIO*
  
 - Desempenho(tempo de carregamento das páginas, entre outros. Otimização de consultas ao banco de dados);
 - Segurança;
