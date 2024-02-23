@@ -39,7 +39,7 @@ Uma empresa de disponibilização de serviços, no qual tem intuito de divugar o
                                    
 - Cadastro de candidato;
 - Criação de perfil profissional;
-- Publicação de vagas;
+- Candidatura a vagas;
 - Agenda disponível (ao público);
 - Comentário;
 - Feedback pós-entrevista;
@@ -51,7 +51,7 @@ Uma empresa de disponibilização de serviços, no qual tem intuito de divugar o
 
 - Cadastro do Cliente; 
 - Pesquisa por Funcionário;
-- Candidatura a vagas;
+- Publicação de vagas disponível;
 - Criação de perfil profissional;
 - Agendamento de entrevistas;
 - Chat de Conversa; 
