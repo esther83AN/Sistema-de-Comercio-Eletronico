@@ -1,7 +1,7 @@
 # Choose Profissional
 ## Comécio eletrônico 
 ###  O que é o sistema que será desenvolvido? 
-Uma empresa de disponibilização de serviços, no qual tem intuito de divugar o serviço de profissionais por meio da tecnologia. 
+Uma empresa de disponibilização de serviços, no qual tem intuito de divugar o trabalho de profissionais por meio da tecnologia. 
 ###  Qual problema ele ira resolver?
  A procura de mão de obra qualificada.
 ###  Identificação de 3 sistemas semelhantes?
