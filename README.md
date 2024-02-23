@@ -55,7 +55,7 @@ Uma empresa de disponibilização de serviços, no qual tem intuito de divugar o
 - Criação de perfil profissional;
 - Agendamento de entrevistas;
 - Chat de Conversa; 
-- Comentar; 
+- Comentar;
 - Avaliar Funcionário;
 - Feedback pós-entrevista;
 - Gerenciamento de processos seletivos;
