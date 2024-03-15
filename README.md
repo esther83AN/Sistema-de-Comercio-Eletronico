@@ -22,27 +22,18 @@ Uma empresa de disponibilização de serviços, no qual tem intuito de divugar o
 
 ### Requisitos funcionais  
 
-*FUNCIONÁRIO* 
-                                   
-- Cadastro de candidato;
-- Criação de perfil profissional;
-- Candidatura a vagas;
-- Agenda disponível (ao público);
-- Comentário;
-- Feedback pós-entrevista;
-- Gestão de perfis de empresa; 
-- Notificações;
+*Prestado de Serviço* 
+- Cadastra Prestado de serviço;
+- Criar Perfil Profissional;
+- Agenda do Prestado de Serviço ( disponível aos contrante);
+- Notificações receber e enviar;
 - Chat de Conversa;
+- Visualização Avaliação do Contrante;
 
-*CLIENTE*
-
-- Cadastro do Cliente; 
-- Pesquisa por Funcionário;
-- Publicação de vagas disponível;
-- Criação de perfil profissional;
-- Agendamento de entrevistas;
-- Chat de Conversa; 
-- Comentar;
-- Avaliar Funcionário;
-- Feedback pós-entrevista;
-- Gerenciamento de processos seletivos;
+*Contratante*
+- Cadastra Perfil de Contrante;
+- Visualiza Agenda do Prestado de Serviço;
+- Comentar sobre o serviço do Prestado;
+- Avaliar Prestado de Serviço;
+- Notificações receber e enviar;
+- Chat de COnversas; 
