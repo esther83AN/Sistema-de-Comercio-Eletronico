@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastrar Pestador de Serviço</h1>
+    <form action="visualizacao.html" method="post">
+        <fieldset>
+            <legend></legend>
+            <label for="nome">Nome Completo :</label>
+            <input type="text" id="nome" minlength="15" required><br>
+            
+            <label for="genero">Gênero:</label>
+            <input type="radio" name="genero" value="masculino">masculino
+            <input type="radio" name="genero" value="feminino">Feminino <br>
+    
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" required><br>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade"  required><br>
+
+            <label for="estado">Estado:</label> 
+             <select id="estado" name="estado">
+                 <option value="to">To</option>
+                 <option value="se">SE</option>
+                 <option value="sp">SP</option>
+                 <option value="sc">SC</option>
+                 <option value="rr">RR</option>
+                 <option value="ro">RO</option>
+                 <option value="rn">RN</option>
+                 <option value="rj">RJ</option>
+                 <option value="pi">PI</option>
+                 <option value="pe">PE</option>
+                 <option value="pr">PR</option>
+                 <option value="pb">PB</option>
+                 <option value="pa">PA</option>
+                 <option value="mg">MG</option>
+                 <option value="ms">MS</option>
+                 <option value="mt">MT</option>
+                 <option value="ma">MA</option>
+                 <option value="go">GO</option>
+                 <option value="es">ES</option>
+                 <option value="df">DF</option>
+                 <option value="ce">CE</option>
+                 <option value="ba">BA</option>
+                 <option value="am">AM</option>
+                 <option value="ap">AP</option>
+                 <option value="al">AL</option>
+                 <option value="ac">AC</option>
+             </select><br>
+
+            <label for="cep">cep:</label>
+            <input type="cep" id="cep" required><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="telefone" id="telefone" name="telefone" minlength="11" required><br>
+             
+            <label for="email">Email:</label>
+            <input type="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+            id="email" name="email" required><br>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" minlength="6" required><br>
+
+            
+        </fieldset>
+        <h1>Detalhes do Serviço:</h1>
+
+        <label for="tipo_de_servico">Tipo de Serviço:</label>
+        <input type="text" id="tipo_de_servico" required><br>
+
+        <label for="descricao_do_servico">Descrição do serviço:</label>
+        <input type="text" id="descricao_do_servico" required><br>
+
+        <label for="data_deseja_para_o_servico">Data desejada para o serviço:</label>
+        <input type="text" id="data_deseja_para_o_servico" required><br>
+
+
+
+
+        <fieldset>
+             <legend>Mensagem</legend>
+             <label for="motivo">Motivo do contato:</label> 
+             <select id="motivo" name="motivo">
+                 <option value="duvida">Dúvida</option>
+                 <option value="sugestao">Sugestão</option>
+                 <option value="elogio">Elogio</option>
+                 <option value="outros">Outros</option>
+             </select><br>
+
+             <label for="mensagem">Mensagem: </label><br>
+             <textarea id="mensagem" name="mensagem" rows="4" cols="50"
+ placeholder="Digite sua mensagem aqui"></textarea><br>
+
+             <label for="anexo">Anexo:</labe><br>
+             <input type="file" name="arquivo"><br> 
+
+             <label for="notificacao">Aceito receber notificação de resposta:</label>
+             <input type="checkbox" id="notificacao" name="notificacao" required> <br> 
+        </fieldset>
+        <button type="sumit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
+</body>
+</html>
