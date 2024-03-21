@@ -68,6 +68,8 @@
 
             
         </fieldset>
+
+        <fieldset>
         <h1>Detalhes do Serviço:</h1>
 
         <label for="tipo_de_servico">Tipo de Serviço:</label>
@@ -75,33 +77,29 @@
 
         <label for="descricao_do_servico">Descrição do serviço:</label>
         <input type="text" id="descricao_do_servico" required><br>
-
-        <label for="data_deseja_para_o_servico">Data desejada para o serviço:</label>
-        <input type="text" id="data_deseja_para_o_servico" required><br>
-
-
-
-
-        <fieldset>
-             <legend>Mensagem</legend>
+        
+        <legend>Observações Adicionais:</legend>
+        <label for="mensagem">Observações Adicionais: </label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50"
+placeholder="Digite sua mensagem aqui"></textarea><br>
+         
+        
              <label for="motivo">Motivo do contato:</label> 
              <select id="motivo" name="motivo">
                  <option value="duvida">Dúvida</option>
-                 <option value="sugestao">Sugestão</option>
-                 <option value="elogio">Elogio</option>
                  <option value="outros">Outros</option>
              </select><br>
 
              <label for="mensagem">Mensagem: </label><br>
              <textarea id="mensagem" name="mensagem" rows="4" cols="50"
  placeholder="Digite sua mensagem aqui"></textarea><br>
-
+            </fieldset>
              <label for="anexo">Anexo:</labe><br>
              <input type="file" name="arquivo"><br> 
 
              <label for="notificacao">Aceito receber notificação de resposta:</label>
              <input type="checkbox" id="notificacao" name="notificacao" required> <br> 
-        </fieldset>
+        
         <button type="sumit">Enviar</button>
         <button type="reset">Limpar</button>
     </form>
