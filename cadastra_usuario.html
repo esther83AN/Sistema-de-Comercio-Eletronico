@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Cadastrar Pestador de Serviço</h1>
+    <h1 id="titulo">Cadastrar Pestador de Serviço</h1>
     <form action="visualizacao.html" method="post">
-        <fieldset>
+        <fieldset id="pessoa">
             <legend></legend>
             <label for="nome">Nome Completo :</label>
             <input type="text" id="nome" minlength="15" required><br>
@@ -24,8 +25,7 @@
             <input type="text" id="cidade"  required><br>
 
             <label for="estado">Estado:</label> 
-             <select id="estado" name="estado">
-                 <option value="to">To</option>
+             <select id="estado" name="estado" >
                  <option value="se">SE</option>
                  <option value="sp">SP</option>
                  <option value="sc">SC</option>
@@ -51,6 +51,7 @@
                  <option value="ap">AP</option>
                  <option value="al">AL</option>
                  <option value="ac">AC</option>
+                 <option value="to" selected>TO</option>
              </select><br>
 
             <label for="cep">cep:</label>
@@ -68,17 +69,16 @@
 
             
         </fieldset>
-
-        <fieldset>
-        <h1>Detalhes do Serviço:</h1>
-
+        <h1 id="titulo">Detalhes do Serviço:</h1>
+        <fieldset id="pessoa">
+    
         <label for="tipo_de_servico">Tipo de Serviço:</label>
         <input type="text" id="tipo_de_servico" required><br>
 
         <label for="descricao_do_servico">Descrição do serviço:</label>
         <input type="text" id="descricao_do_servico" required><br>
         
-        <legend>Observações Adicionais:</legend>
+       
         <label for="mensagem">Observações Adicionais: </label><br>
         <textarea id="mensagem" name="mensagem" rows="4" cols="50"
 placeholder="Digite sua mensagem aqui"></textarea><br>
