@@ -7,22 +7,24 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="titulo">Cadastrar Pestador de Serviço</h1>
+    <img src="img/image.png">
+    <h1>Cadastro do Prestador</h1>
     <form action="visualizacao.html" method="post">
-        <fieldset id="pessoa">
+        
             <legend></legend>
             <label for="nome">Nome Completo :</label>
-            <input type="text" id="nome" minlength="15" required><br>
+            <input type="text" id="nome" minlength="15" placeholder="João Alfredo Junior"
+            required><br>
             
             <label for="genero">Gênero:</label>
             <input type="radio" name="genero" value="masculino">masculino
             <input type="radio" name="genero" value="feminino">Feminino <br>
-    
-            <label for="endereco">Endereço:</label>
-            <input type="text" id="endereco" required><br>
+
+            <label for="number">CPF: </label>
+            <input id="number" type="tel" name="number" placeholder="000.000.000-00" required></br>
 
             <label for="cidade">Cidade:</label>
-            <input type="text" id="cidade"  required><br>
+            <input type="text" id="cidade" placeholder="João pessoa" required><br>
 
             <label for="estado">Estado:</label> 
              <select id="estado" name="estado" >
@@ -55,35 +57,32 @@
              </select><br>
 
             <label for="cep">cep:</label>
-            <input type="cep" id="cep" required><br>
+            <input type="cep" id="cep"placeholder="00000-000"
+            required><br>
 
             <label for="telefone">Telefone:</label>
-            <input type="telefone" id="telefone" name="telefone" minlength="11" required><br>
+            <input type="telefone" id="telefone" name="telefone" minlength="11"  placeholder="(xx) xxxxx-xxxx" required><br>
              
             <label for="email">Email:</label>
             <input type="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-            id="email" name="email" required><br>
+            id="email" name="email" placeholder="chooseprofisional@gmail.com"
+            required><br>
 
             <label for="senha">Senha:</label>
-            <input type="password" id="senha" name="senha" minlength="6" required><br>
+            <input type="password" id="senha" name="senha" minlength="6" placeholder="Digite sua melhor senha"
+            required><br>
 
             
-        </fieldset>
-        <h1 id="titulo">Detalhes do Serviço:</h1>
-        <fieldset id="pessoa">
+    
+        <h1>Detalhes do Serviço:</h1>
     
         <label for="tipo_de_servico">Tipo de Serviço:</label>
-        <input type="text" id="tipo_de_servico" required><br>
-
-        <label for="descricao_do_servico">Descrição do serviço:</label>
-        <input type="text" id="descricao_do_servico" required><br>
-        
+        <input type="text" id="tipo_de_servico" placeholder="Advogado"></textarea><br><br>
        
         <label for="mensagem">Observações Adicionais: </label><br>
         <textarea id="mensagem" name="mensagem" rows="4" cols="50"
 placeholder="Digite sua mensagem aqui"></textarea><br>
          
-        
              <label for="motivo">Motivo do contato:</label> 
              <select id="motivo" name="motivo">
                  <option value="duvida">Dúvida</option>
@@ -93,7 +92,7 @@ placeholder="Digite sua mensagem aqui"></textarea><br>
              <label for="mensagem">Mensagem: </label><br>
              <textarea id="mensagem" name="mensagem" rows="4" cols="50"
  placeholder="Digite sua mensagem aqui"></textarea><br>
-            </fieldset>
+    
              <label for="anexo">Anexo:</labe><br>
              <input type="file" name="arquivo"><br> 
 
