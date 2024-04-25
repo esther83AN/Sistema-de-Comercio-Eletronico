@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cliente.css">
+    <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="dov">
+            <img src="../img/logo.jpg">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                                <h1>Cadastro do Contrantante</h1>
+                            </div>
+
+                            <fieldset>
+
+                            <div class="input-group">
+                                <div class="input-box">
+                                    <label for="firstname">Nome Completo:</label>
+                                    <input id="firstname" type="text" name="firstname" placeholder="José Sanatana dos Santos" required>
+                                </div>
+
+
+                                <div class="input-box">
+                                    <label for="number">CPF: </label>
+                                    <input id="number" type="tel" name="number" placeholder="000.000.000-00" required>
+                                </div>
+
+
+                                <div class="input-box">
+                                    <label for="email">Endereço de E-mail: </label>
+                                    <input id="email" type="email" name="email" placeholder="chooseprofisional@gmail.com"
+                                        required>
+                                </div>
+
+
+                                <div class="input-box">
+                                    <label for="number">Telefone: </label>
+                                    <input id="number" type="tel" name="number" placeholder="(xx) xxxxx-xxxx" required>
+                                </div>
+
+
+                                <div class="input-box">
+                                    <label for="password">Senha: </label>
+                                    <input id="password" type="password" name="number" placeholder="Digite sua melhor senha"
+                                        required>
+                                </div>
+
+
+                                <div class="input-box">
+                                    <label for="Confirmpassword">Confirme sua Senha: </label>
+                                    <input id="Confirmpassword" type="password" name="Confirmpassword"
+                                        placeholder="Confirme sua senha" required>
+                                </div>
+                            </div>
+
+                    <label for="estado">Estado:</label>
+                    <select id="estado" name="estado">
+                        <option value="ac">AC</option>
+                        <option value="al">AL</option>
+                        <option value="ap">AP</option>
+                        <option value="am">AM</option>
+                        <option value="ba">BA</option>
+                        <option value="ce">CE</option>
+                        <option value="df">DF</option>
+                        <option value="es">ES</option>
+                        <option value="go">GO</option>
+                        <option value="ma">MA</option>
+                        <option value="mt">MT</option>
+                        <option value="ms">MS</option>
+                        <option value="mg">MG</option>
+                        <option value="pa">PA</option>
+                        <option value="pb">PB</option>
+                        <option value="pr">PR</option>
+                        <option value="pe">PE</option>
+                        <option value="pi">PI</option>
+                        <option value="rj">RJ</option>
+                        <option value="rn">RN</option>
+                        <option value="rs">RS</option>
+                        <option value="ro">RO</option>
+                        <option value="rr">RR</option>
+                        <option value="sc">SC</option>
+                        <option value="sp">SP</option>
+                        <option value="se">SE</option>
+                        <option value="to">TO</option>
+                    </select><br>
+
+                    <div class="continue-button">
+                        <button><a href="#">Continua Cadastro</a></button>
+                   
+
+                    </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário de Exemplo</h1>
+
+    <from action="/visualizacao.html" method="post">
+    
+    </from>
+    <fieldset>
+        
+        <label for="nome"Nome:>Nome:</label>
+        <input type="text" id="nome" required></input><br>
+
+        <label for="data_nasc">Data de Nascimento:</label>
+        <input type="text" pattern="^(0[1-9]|[1-2][0-9]|3[0-1])/(0[1-9]|1[0-2])/([0-9]{4})$"
+    tittle="Insira uma data no formato dd/mm/aaaa" id="data_nasc" name="data_nasc" required placeholder="dd/mm/aaaa"><br>
+    
+        <label for="email">Endereço de Email:</label>
+        <input type="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+    id="email" name="email" required><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" minlength="6" required><br>
+    
+        <label for="genero">Gênero:</label>
+        <input type="radio" name="genero" value="masculino"> Masculino
+        <input type="radio" name="genero" value="femenino"> Feminino
+    </fieldset>
+
+
+    <h1>Suporte</h1>
+    <fieldset>
+        
+            <label for="number">CPF: </label>
+            <input id="number" type="tel" name="number" required>
+        </select><br>
+
+        <label for="motivo">Motivo do contato:</label> 
+        <select id="motivo" name="motivo">
+            <option value="duvida">Dúvida</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="elogio">Elogio</option>
+            <option value="outros">Outros</option>
+        </select><br>
+
+        <label for="mensagem">Mensagem: </label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50"
+placeholder="Digite sua mensagem aqui"></textarea><br>
+
+
+        <label for="notificacao">Aceito receber notificação de resposta:</label>
+        <input type="checkbox" id="notificacao" name="notificacao" required> <br> 
+   </fieldset>
+</form>
+
+</body>
+</html>
