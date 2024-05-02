@@ -13,7 +13,7 @@
         </div>
     <h1>Cadastro do Prestador</h1>
     <form action="visualizacao.html" method="post">
-        
+       <fieldset> 
             <legend></legend>
             <label for="nome">Nome Completo :</label>
             <input type="text" id="nome" minlength="15" placeholder="João Alfredo Junior"
@@ -31,32 +31,33 @@
 
             <label for="estado">Estado:</label> 
              <select id="estado" name="estado" >
-                 <option value="se">SE</option>
-                 <option value="sp">SP</option>
-                 <option value="sc">SC</option>
-                 <option value="rr">RR</option>
-                 <option value="ro">RO</option>
-                 <option value="rn">RN</option>
-                 <option value="rj">RJ</option>
-                 <option value="pi">PI</option>
-                 <option value="pe">PE</option>
-                 <option value="pr">PR</option>
-                 <option value="pb">PB</option>
-                 <option value="pa">PA</option>
-                 <option value="mg">MG</option>
-                 <option value="ms">MS</option>
-                 <option value="mt">MT</option>
-                 <option value="ma">MA</option>
-                 <option value="go">GO</option>
-                 <option value="es">ES</option>
-                 <option value="df">DF</option>
-                 <option value="ce">CE</option>
-                 <option value="ba">BA</option>
-                 <option value="am">AM</option>
-                 <option value="ap">AP</option>
-                 <option value="al">AL</option>
-                 <option value="ac">AC</option>
-                 <option value="to" selected>TO</option>
+                <option value="ac">AC</option>
+                <option value="al">AL</option>
+                <option value="ap">AP</option>
+                <option value="am">AM</option>
+                <option value="ba">BA</option>
+                <option value="ce">CE</option>
+                <option value="df">DF</option>
+                <option value="es">ES</option>
+                <option value="go">GO</option>
+                <option value="ma">MA</option>
+                <option value="mt">MT</option>
+                <option value="ms">MS</option>
+                <option value="mg">MG</option>
+                <option value="pa">PA</option>
+                <option value="pb">PB</option>
+                <option value="pr">PR</option>
+                <option value="pe">PE</option>
+                <option value="pi">PI</option>
+                <option value="rj">RJ</option>
+                <option value="rn">RN</option>
+                <option value="rs">RS</option>
+                <option value="ro">RO</option>
+                <option value="rr">RR</option>
+                <option value="sc">SC</option>
+                <option value="sp">SP</option>
+                <option value="se">SE</option>
+                <option value="to">TO</option>
              </select><br>
 
             <label for="cep">cep:</label>
@@ -74,11 +75,10 @@
             <label for="senha">Senha:</label>
             <input type="password" id="senha" name="senha" minlength="6" placeholder="Digite sua melhor senha"
             required><br>
+        </fieldset>
 
-            
-    
-        <h1>Detalhes do Serviço:</h1>
-    
+        <h1>Detalhes do Serviço</h1>
+    <fieldset>
         <label for="tipo_de_servico">Tipo de Serviço:</label>
         <input type="text" id="tipo_de_servico" placeholder="EX:Advogado"></textarea><br><br>
        
@@ -89,6 +89,8 @@ placeholder="Digite sua mensagem aqui"></textarea><br>
              <label for="motivo">Motivo do contato:</label> 
              <select id="motivo" name="motivo">
                  <option value="duvida">Dúvida</option>
+                 <option value="sugestao">Sugestão</option>
+                 <option value="elogio">Elogio</option>
                  <option value="outros">Outros</option>
              </select><br>
 

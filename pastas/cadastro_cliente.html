@@ -28,6 +28,9 @@
                                     <input id="firstname" type="text" name="firstname" placeholder="José Sanatana dos Santos" required>
                                 </div>
 
+                                <label for="genero">Gênero:</label>
+                                <input type="radio" name="genero" value="masculino"> Masculino
+                                <input type="radio" name="genero" value="femenino"> Feminino
 
                                 <div class="input-box">
                                     <label for="number">CPF: </label>
@@ -62,37 +65,6 @@
                                 </div>
                             </div>
 
-                    <label for="estado">Estado:</label>
-                    <select id="estado" name="estado">
-                        <option value="ac">AC</option>
-                        <option value="al">AL</option>
-                        <option value="ap">AP</option>
-                        <option value="am">AM</option>
-                        <option value="ba">BA</option>
-                        <option value="ce">CE</option>
-                        <option value="df">DF</option>
-                        <option value="es">ES</option>
-                        <option value="go">GO</option>
-                        <option value="ma">MA</option>
-                        <option value="mt">MT</option>
-                        <option value="ms">MS</option>
-                        <option value="mg">MG</option>
-                        <option value="pa">PA</option>
-                        <option value="pb">PB</option>
-                        <option value="pr">PR</option>
-                        <option value="pe">PE</option>
-                        <option value="pi">PI</option>
-                        <option value="rj">RJ</option>
-                        <option value="rn">RN</option>
-                        <option value="rs">RS</option>
-                        <option value="ro">RO</option>
-                        <option value="rr">RR</option>
-                        <option value="sc">SC</option>
-                        <option value="sp">SP</option>
-                        <option value="se">SE</option>
-                        <option value="to">TO</option>
-                    </select><br>
-
                     <div class="continue-button">
                         <button><a href="#">Continua Cadastro</a></button>
                    
@@ -113,31 +85,67 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Formulário de Exemplo</h1>
+    <h1>Localização</h1>
 
-    <from action="/visualizacao.html" method="post">
-    
-    </from>
-    <fieldset>
-        
-        <label for="nome"Nome:>Nome:</label>
-        <input type="text" id="nome" required></input><br>
+<fieldset>
+    <label for="estado">Estado:</label> 
+    <select id="estado" name="estado" >
+       <option value="ac">AC</option>
+       <option value="al">AL</option>
+       <option value="ap">AP</option>
+       <option value="am">AM</option>
+       <option value="ba">BA</option>
+       <option value="ce">CE</option>
+       <option value="df">DF</option>
+       <option value="es">ES</option>
+       <option value="go">GO</option>
+       <option value="ma">MA</option>
+       <option value="mt">MT</option>
+       <option value="ms">MS</option>
+       <option value="mg">MG</option>
+       <option value="pa">PA</option>
+       <option value="pb">PB</option>
+       <option value="pr">PR</option>
+       <option value="pe">PE</option>
+       <option value="pi">PI</option>
+       <option value="rj">RJ</option>
+       <option value="rn">RN</option>
+       <option value="rs">RS</option>
+       <option value="ro">RO</option>
+       <option value="rr">RR</option>
+       <option value="sc">SC</option>
+       <option value="sp">SP</option>
+       <option value="se">SE</option>
+       <option value="to">TO</option>
+    </select><br>
 
-        <label for="data_nasc">Data de Nascimento:</label>
-        <input type="text" pattern="^(0[1-9]|[1-2][0-9]|3[0-1])/(0[1-9]|1[0-2])/([0-9]{4})$"
-    tittle="Insira uma data no formato dd/mm/aaaa" id="data_nasc" name="data_nasc" required placeholder="dd/mm/aaaa"><br>
-    
-        <label for="email">Endereço de Email:</label>
-        <input type="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-    id="email" name="email" required><br>
+    <div class="input-box">
+        <label for="number">CEP: </label>
+        <input id="number" type="tel" name="number" placeholder="00000-000" required>
+    </div>
 
-        <label for="senha">Senha:</label>
-        <input type="password" id="senha" name="senha" minlength="6" required><br>
-    
-        <label for="genero">Gênero:</label>
-        <input type="radio" name="genero" value="masculino"> Masculino
-        <input type="radio" name="genero" value="femenino"> Feminino
-    </fieldset>
+    <div class="input-box">
+        <label for="city">Cidade: </label>
+        <input id="city" type="tel" name="city" placeholder="São Paulo" required>
+    </div>
+
+    <div class="input-box">
+        <label for="Service Location">Local do Serviço: </label>
+        <input id="Service Location" type="tel" name="Service Location" placeholder="Rua 7 de Setembro" required>
+    </div>
+    <div class="continue-button">
+        <button><a href="#">Concluir Cadastro</a></button>
+</fieldset>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 
 
     <h1>Suporte</h1>

@@ -1,0 +1,23 @@
+<h1>Formulário de Exemplo</h1>
+
+<from action="/visualizacao.html" method="post">
+
+</from>
+<fieldset>
+    
+    <label for="nome"Nome:>Nome do Perfil:</label>
+    <input type="text" id="nome" required></input><br>
+
+    <label for="data_nasc">Data de Nascimento:</label>
+    <input type="text" pattern="^(0[1-9]|[1-2][0-9]|3[0-1])/(0[1-9]|1[0-2])/([0-9]{4})$"
+tittle="Insira uma data no formato dd/mm/aaaa" id="data_nasc" name="data_nasc" required placeholder="dd/mm/aaaa"><br>
+
+    <label for="email">Endereço de E-mail:</label>
+    <input type="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+id="email" name="email" required><br>
+
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" name="senha" minlength="6" required><br>
+
+   
+</fieldset>
