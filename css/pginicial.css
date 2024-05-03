@@ -13,7 +13,8 @@ body {
     background-image: url(../img/ini.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background
+    background-position-x: 10%;
+    background-position-y: 10%;
 }
 
 h1{
@@ -75,7 +76,6 @@ header{
     width: 15000%;
     height: 1000%;
 }
-<<<<<<< HEAD
 .saiba-mais-button {
     background-color: #c72a0f;
     color: #fff;
@@ -87,7 +87,7 @@ header{
     cursor: pointer;
     transition: background-color 0.3s;
     position: absolute;
-    top: 70%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -95,7 +95,4 @@ header{
 .saiba-mais-button:hover {
     background-color: #0056b3;
 }
-=======
 
-
->>>>>>> cc47c297ec310789d314fd9eaee5ed6e5d5333b4
