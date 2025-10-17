@@ -23,7 +23,7 @@ h1{
     color:rgb(0, 0, 0);
     padding: 10px 10px;
     font-size: 60px;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
     font-weight:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 h2{
@@ -32,8 +32,8 @@ h2{
     color:rgb(240, 88, 1);
     padding: 11px 11px;
     font-size: 25px;
-    font-family:Arial, Helvetica, sans-serif
-    font-weight:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     justify-content: center;
 }
 
@@ -111,6 +111,4 @@ header{
     background-color: rgb(202, 81, 10);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-    
 }

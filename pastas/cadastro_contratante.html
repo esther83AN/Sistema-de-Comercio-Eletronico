@@ -1,35 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css"> 
-    <title>Document</title>
+    <title>Cadastro do Contratante</title>
 </head>
 <body>
     <div class="container">
-        <div id="dov">
-            <img src="../img/logo.jpg">
-        </div>
     <h1>Cadastro do Prestador</h1>
-    <form action="visualizacao.html" method="post">
        <fieldset> 
-            <legend></legend>
             <label for="nome">Nome Completo :</label>
-            <input type="text" id="nome" minlength="15" placeholder="João Alfredo Junior"
-            required><br>
+            <input type="text" id="nome" minlength="15" placeholder="João Alfredo Junior" required><br>
             
             <label for="genero">Gênero:</label>
-            <input type="radio" name="genero" value="masculino">masculino
+            <input type="radio" name="genero" value="masculino">Masculino
             <input type="radio" name="genero" value="feminino">Feminino <br>
 
             <label for="number">CPF: </label>
             <input id="number" type="tel" name="number" placeholder="000.000.000-00" required></br>
 
-            <label for="cidade">Cidade:</label>
-            <input type="text" id="cidade" placeholder="João pessoa" required><br>
+            <label for="cep">CEP:</label>
+            <input type="cep" id="cep"placeholder="00000-000" required><br>
 
-            <label for="estado">Estado:</label> 
+             <label for="estado">Estado:</label> 
              <select id="estado" name="estado" >
                 <option value="ac">AC</option>
                 <option value="al">AL</option>
@@ -60,12 +54,12 @@
                 <option value="to">TO</option>
              </select><br>
 
-            <label for="cep">cep:</label>
-            <input type="cep" id="cep"placeholder="00000-000"
-            required><br>
+             
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" placeholder="Bahia" required><br>
 
             <label for="telefone">Telefone:</label>
-            <input type="telefone" id="telefone" name="telefone" minlength="11"  placeholder="(xx) xxxxx-xxxx" required><br>
+            <input type="telefone" id="telefone" name="telefone" minlength="11"  placeholder="(00) 00000-0000" required><br>
              
             <label for="email">Email:</label>
             <input type="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
@@ -73,20 +67,24 @@
             required><br>
 
             <label for="senha">Senha:</label>
-            <input type="password" id="senha" name="senha" minlength="6" placeholder="Digite sua melhor senha"
+            <input type="password" id="senha" name="senha" minlength="6" placeholder="Digite sua senha"
             required><br>
+
+            <label for="senha">Confirme sua Senha:</label>
+            <input type="password" id="senha" name="senha" minlength="6" placeholder="Digite sua senha"
+            required><br>
+            
         </fieldset>
 
         <h1>Detalhes do Serviço</h1>
     <fieldset>
         <label for="tipo_de_servico">Tipo de Serviço:</label>
-        <input type="text" id="tipo_de_servico" placeholder="EX:Advogado"></textarea><br><br>
+        <input type="text" id="tipo_de_servico" placeholder="Ex.:Advogado"></textarea><br><br>
        
-        <label for="mensagem">Observações Adicionais: </label><br>
-        <textarea id="mensagem" name="mensagem" rows="4" cols="50"
-placeholder="Digite sua mensagem aqui"></textarea><br>
+        <label for="mensagem">Observações: </label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Digite aqui"></textarea><br>
          
-             <label for="motivo">Motivo do contato:</label> 
+             <label for="motivo">Motivo do Contato:</label> 
              <select id="motivo" name="motivo">
                  <option value="duvida">Dúvida</option>
                  <option value="sugestao">Sugestão</option>
@@ -94,9 +92,7 @@ placeholder="Digite sua mensagem aqui"></textarea><br>
                  <option value="outros">Outros</option>
              </select><br>
 
-             <label for="mensagem">Mensagem: </label><br>
-             <textarea id="mensagem" name="mensagem" rows="4" cols="50"
- placeholder="Digite sua mensagem aqui"></textarea><br>
+             <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem aqui"></textarea><br>
     
              <label for="anexo">Anexo:</labe><br>
              <input type="file" name="arquivo"><br> 
